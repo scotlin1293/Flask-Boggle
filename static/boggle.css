@@ -1,0 +1,31 @@
+/* i tried centering the board, but it wouldn't reflect the changes. please advise.  */
+.board {
+	margin: auto;
+	border: solid 1px black;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+#boggle {
+	margin: 0 auto;
+}
+.board td {
+	text-align: center;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.msg {
+	padding: 1em;
+}
+
+.msg.ok {
+	color: white;
+	background-color: rgb(14, 202, 177);
+}
+
+.msg.err {
+	color: white;
+	background-color: rgb(255, 38, 0);
+}
